@@ -1,2 +1,2 @@
-# junaid-arshad
-My personal website.
+# Junaid Arshad
+Welcome to my website.
