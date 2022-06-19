@@ -20,6 +20,14 @@
 {% if page.style %}{% include objects/{{ page.objects }}.html %}{% endif %}
 
 <!-- --------- -->
+  
+<!--   Google adsense -->
+  
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1508552060670001"
+     crossorigin="anonymous"></script>
+  
+<!--   End of Google ads -->
+  
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
