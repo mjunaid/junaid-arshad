@@ -24,3 +24,14 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
   - jekyll-sitemap ## Uncomment this line to silently generate a sitemaps.org compliant sitemap for your Jekyll site
+
+# Comments section settings
+# comment-post: https://docs.google.com/forms/d/e/1FAIpQLSeyUPwPOaiRziPaQ38DGocox2Y5dtOrC5h9OPwtf4LC-g2UCg
+# comment-read: https://docs.google.com/spreadsheets/d/1QKwdjY5uWrkGWNNm3hJs06-9AfRO99HfYSfCEF0Lue4
+# comment-post-fields:
+
+google_forms_comments:
+  google_app_script: https://script.google.com/macros/s/AKfycbz5aJDxJscEqwPVowEoHgVbjFzKLt0CM-sDUbr2NZjU6V9duiQS2nrslikE5T6xnQEVBQ/exec
+  lazy_load_comments: true
+  recaptcha_site_key: "6Lf38YQgAAAAAPoSZ2BZtJKEPsRf-Zcc-UpIurDD"
+  comment_replies_enabled: true
